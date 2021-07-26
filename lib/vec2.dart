@@ -11,7 +11,7 @@ library elliptic_text;
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:meta/meta.dart';
+//import 'package:meta/meta.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -244,15 +244,15 @@ class Vec2 extends Pair {
   }
 
   /// Basic details of vector for testing.
-  @visibleForTesting
-  Map<String, dynamic> details() => {
-        "x": this.x,
-        "y": this.y,
-        "rot": this.rot,
-        "deg": radToDeg(this.rot),
-        "mag": this.mag,
-        "quadrant": this.quadrant(),
-      };
+  // @visibleForTesting
+  // Map<String, dynamic> details() => {
+  //       "x": this.x,
+  //       "y": this.y,
+  //       "rot": this.rot,
+  //       "deg": radToDeg(this.rot),
+  //       "mag": this.mag,
+  //       "quadrant": this.quadrant(),
+  //     };
 }
 
 extension ListToVec2 on List<double> {
