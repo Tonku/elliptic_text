@@ -2,7 +2,7 @@ name: elliptic_text
 description: "Includes the EllipticText widget that lets you draw curved text.
  It comes with all the bells and whistles and is very easy to use."
 repository: https://github.com/robmllze/elliptic_text
-version: 1.0.1+8
+version: 1.0.1+9
 environment:
   sdk: ">=2.13.0 <3.0.0"
 dependencies:

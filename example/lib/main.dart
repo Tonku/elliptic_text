@@ -62,8 +62,9 @@ final _animate =
     (final Widget Function(double) widget) => TweenAnimationBuilder(
           tween: Tween<double>(
             begin: 0.0,
-            end: 30.0 * /*circumference*/ 2379.81594,
+            // Revolve text at 30 RPM.
+            end: 30.0 * /*circumference = */ 1189.90797,
           ),
-          duration: Duration(seconds: 60),
+          duration: Duration(minutes: 1),
           builder: (_, __value, __) => widget(__value),
         );

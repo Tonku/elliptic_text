@@ -39,3 +39,7 @@
 1.0.1+8
 
 * Reduced length of package description
+
+1.0.1+9
+
+* Fixed math error in example
