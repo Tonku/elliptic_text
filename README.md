@@ -46,9 +46,9 @@ final _ellipticTextStack = Stack(
           
           // Text decorations are NOT supported and will throw an error if
           // specified.
-          //decoration: TextDecoration.overline
+          //decoration: TextDecoration.underline
 
-          // Word spacing is NOT supported  and will throw an error if
+          // Word spacing is NOT supported and will throw an error if
           // specified.
           //wordSpacing: 5.0
         ),
@@ -59,7 +59,7 @@ final _ellipticTextStack = Stack(
         // Draw your text at the bottom of the ellipse.
         perimiterAlignment: EllipticText_PerimiterAlignment.bottom,
 
-        // Offset your text by -5 pixels.
+        // Offset your text by -5 pixels along perimiter.
         offset: -5.0,
 
         // Ensure the bottom of your text faces away from the centre of the

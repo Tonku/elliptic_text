@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   offset: __value,
                   // Stretch text to half the circumference.
                   fitFactor: 1 / 2,
-                  fitType: EllipticText_FitType.scaleFit,
+                  fitType: EllipticText_FitType.stretchFit,
                 ),
               ),
             ),
@@ -58,11 +58,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-final _animate = (final Widget Function(double) child) => TweenAnimationBuilder(
-      tween: Tween<double>(
-        begin: 0.0,
-        end: 30 * /*circumference*/ 2379.81594,
-      ),
-      duration: Duration(seconds: 60),
-      builder: (_, __value, __) => child(__value),
-    );
+final _animate =
+    (final Widget Function(double) widget) => TweenAnimationBuilder(
+          tween: Tween<double>(
+            begin: 0.0,
+            end: 30.0 * /*circumference*/ 2379.81594,
+          ),
+          duration: Duration(seconds: 60),
+          builder: (_, __value, __) => widget(__value),
+        );

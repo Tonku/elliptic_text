@@ -273,7 +273,7 @@ extension ListToVec2List on List<List<double>> {
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-/// Returns normalled value of [a] such that 0 >= [a] <= [scope].
+/// Returns normalled value of `a` such that 0 >= `a` <= `scope`.
 double normalled(final double a, final double scope) {
   if (a > scope) return a - scope * (a ~/ scope);
   if (a < 0.0) return -(a - scope * (a ~/ scope));

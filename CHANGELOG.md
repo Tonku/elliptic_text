@@ -31,3 +31,7 @@
 1.0.1+6
 
 * Fixed annoying typo
+
+1.0.1+7
+
+* Improved documentation

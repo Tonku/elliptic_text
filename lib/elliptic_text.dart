@@ -22,6 +22,7 @@ import 'src/wiskunde.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
+/// Draw curved text along the perimiter of an ellipse.
 class EllipticText extends StatelessWidget {
   //
   //
@@ -42,10 +43,10 @@ class EllipticText extends StatelessWidget {
   /// Where to draw text along perimiter.
   final EllipticText_PerimiterAlignment perimiterAlignment;
 
-  /// Where to draw text along perimiter relative to `perimiterAlignment`.
+  /// Where to draw text along perimiter relative to [perimiterAlignment].
   final double offset;
 
-  /// Stretches the text by [stretchFactor], e.g. 0.7 will squeeze the text to
+  /// Stretches the text by `stretchFactor`, e.g. 0.7 will squeeze the text to
   /// 70% its original width.
   final double stretchFactor;
 
@@ -60,7 +61,7 @@ class EllipticText extends StatelessWidget {
   /// letter spacing.
   final EllipticText_FitType fitType;
 
-  /// A [fitFactor] of 1/2 would fit the text to half the perimiter of the
+  /// A `fitFactor` of 1/2 would fit the text to half the perimiter of the
   /// ellipse, 1/4 to a quarter and 1 would completely wrap the text around
   /// the ellipse.
   ///
@@ -198,7 +199,7 @@ class _EllipticTextPainter extends CustomPainter {
   //
   //
 
-  /// Size of letter at [n] with font size scaled by [scale].
+  /// Size of letter at `n` with font size scaled by `scale`.
   Size _sizeLetter(final int n, final double scale) {
     return (TextPainter(textDirection: TextDirection.ltr)
           ..text = TextSpan(
@@ -215,8 +216,8 @@ class _EllipticTextPainter extends CustomPainter {
   //
   //
 
-  /// Computes `this._heightLetterMax`, `this._widthLetterAvg` and
-  /// `this._widthText`.
+  /// Computes [this._heightLetterMax], [this._widthLetterAvg] and
+  /// [this._widthText].
   void _computeSizeText([final double scale = 1.0]) {
     this._widthText = 0.0;
     for (int n = 0; n < this.widget.text.length; n++) {
@@ -231,9 +232,9 @@ class _EllipticTextPainter extends CustomPainter {
   //
   //
 
-  /// Unit vector with slope equal to slope of the ellipse at x = [x].
-  /// Note: [x] gets circulated between [-a] and [a] so
-  /// -infinity < [x] < infinity.
+  /// Unit vector with slope equal to slope of the ellipse at x = `x`.
+  /// Note: `x` gets circulated between `-a` and `a` so
+  /// -infinity < `x` < infinity.
   Vec2 _vUStep(
     final double x,
     // Half-width of ellipse.
