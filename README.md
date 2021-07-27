@@ -18,7 +18,7 @@ final _ellipticText_ = SizedBox(
 
 Here's an animated example of what your text could look like:
 
-<img src="readme_assets/smile.gif" width="500" height="500" />
+<img src="https://robmllze.github.io/elliptic_text/readme_assets/smile.gif" width="500" height="500" />
 
 ## Properties
 
@@ -43,7 +43,7 @@ final _ellipticTextStack = Stack(
           color: Colors.purple,
           fontSize: 20.0,
 
-          // Space your letters out by specifying the letterSpacing..
+          // Space your letters out by specifying the letterSpacing.
           letterSpacing: 2.0,
           
           // Text decorations are NOT supported and will throw an error if
@@ -61,8 +61,8 @@ final _ellipticTextStack = Stack(
         // Draw your text at the bottom of the ellipse.
         perimiterAlignment: EllipticText_PerimiterAlignment.bottom,
 
-        // Offset your text by 5 pixels.
-        offset: 5.0,
+        // Offset your text by -5 pixels.
+        offset: -5.0,
 
         // Ensure the bottom of your text faces away from the centre of the
         // ellipse.
@@ -72,8 +72,7 @@ final _ellipticTextStack = Stack(
         fitFactor: 1 / 2,
 
         // Specify how you'd like to stretch your text. By adjusting the
-        // letterSpacing,
-        // the fontSize, or maybe both?
+        // letterSpacing, the fontSize, or maybe both?
         fitType: EllipticText_FitType.stretchFit,
 
         // Use this to stretch your text some more.
@@ -92,7 +91,7 @@ final _ellipticTextStack = Stack(
 
 Finally, here's an example of all the different alignments and properties in action:
 
-<img src="readme_assets/sample.png" width="500" height="500" />
+<img src="https://robmllze.github.io/elliptic_text/readme_assets/sample.png" width="500" height="500" />
 
 Please let me know if you find any bugs or if you have suggestions.
 

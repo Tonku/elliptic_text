@@ -11,3 +11,7 @@
 * Added a proper README
 * Added descriptive comments
 * Renamed some variables to more logical names
+
+1.0.1+2
+
+* Fixed broken asset link in README.md
