@@ -46,11 +46,11 @@ final _ellipticTextStack = Stack(
           
           // Text decorations are NOT supported and will throw an error if
           // specified.
-          //decoration: TextDecoration.underline
+          //decoration: TextDecoration.underline,
 
           // Word spacing is NOT supported and will throw an error if
           // specified.
-          //wordSpacing: 5.0
+          //wordSpacing: 5.0,
         ),
 
         // Align your text nicely in the middle.
@@ -69,8 +69,8 @@ final _ellipticTextStack = Stack(
         // Stretch text to half of the circumference of the ellipse.
         fitFactor: 1 / 2,
 
-        // Specify how you'd like to stretch your text. By adjusting the
-        // letterSpacing, the fontSize, or maybe both?
+        // Specify how you'd like to stretch your text. By auto-adjusting
+        // the letterSpacing, the fontSize, or maybe a combo of both?
         fitType: EllipticText_FitType.stretchFit,
 
         // Use this to stretch your text some more.
@@ -95,8 +95,10 @@ Please let me know if you find any bugs or if you have suggestions.
 
 Thanks,
 
-Robert Mollentze
+*Robert Mollentze*
 
-GitHub: /robmllze
+**GitHub:** https://github.com/robmllze/
 
-Email: robmllze@gmail.com
+**Medium:** https://robmllze.medium.com/
+
+**Email:** robmllze@gmail.com
