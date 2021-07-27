@@ -35,3 +35,7 @@
 1.0.1+7
 
 * Improved documentation
+
+1.0.1+8
+
+* Reduced length of package description
