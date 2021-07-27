@@ -1,4 +1,4 @@
-// Elliptic Text Example
+// Animated Example
 
 import 'package:flutter/material.dart';
 import 'package:elliptic_text/elliptic_text.dart';

@@ -1,14 +1,14 @@
 1.0.0+1
 
-* Everything works as it should. No bugs discovered yet.
+* Everything works as it should. No bugs discovered yet
 
 1.0.0+2
 
-* Prepared pub.dev demo release.
+* Prepared pub.dev demo release
 
 1.0.1+1
 
-* Added a proper README
+* Added a proper readme
 * Added descriptive comments
 * Renamed some variables to more logical names
 
@@ -23,3 +23,7 @@
 1.0.1+4
 
 * Added an example
+
+1.0.1+5
+
+* Elaborated on description

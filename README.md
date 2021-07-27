@@ -1,5 +1,3 @@
-
-
 # Welcome to elliptic_text.
 
 This package lets you draw curved text in Flutter along the perimiter of an ellipse or circle. Using the EllipticText widget included in this package is as easy as using any widget in Flutter:
