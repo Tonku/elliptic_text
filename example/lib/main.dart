@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           Center(
             child: Text(
-              "O    ..    o ",
+              "O    ..    o",
               style: TextStyle(fontSize: 60.0, color: Colors.blue),
             ),
           ),
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: EllipticText(
                   text: "Smile! :) Why should text always be straight?",
                   style: TextStyle(fontSize: 20.0, color: Colors.blue),
-                  // Draw text at the top of the ellipse.
+                  // Draw text at the bottom of the ellipse.
                   perimiterAlignment: EllipticText_PerimiterAlignment.bottom,
                   offset: __value,
                   // Stretch text to half the circumference.

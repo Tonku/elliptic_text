@@ -27,3 +27,7 @@
 1.0.1+5
 
 * Elaborated on description
+
+1.0.1+6
+
+* Fixed annoying typo

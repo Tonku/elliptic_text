@@ -1,4 +1,4 @@
-# Welcome to elliptic_text.
+# Welcome to elliptic_text
 
 This package lets you draw curved text in Flutter along the perimiter of an ellipse or circle. Using the EllipticText widget included in this package is as easy as using any widget in Flutter:
 
@@ -16,7 +16,7 @@ final _ellipticText = SizedBox(
 
 Here's an example of what your text could look like:
 
-<img src="https://robmllze.github.io/elliptic_text/readme_assets/smile.gif" style="max-height: 500px; max-width: 500px; object-fit: contain" />
+<img src="https://robmllze.github.io/elliptic_text/readme_assets/smile.gif" style="max-height: 400px; max-width: 400px; object-fit: contain" />
 
 ## Properties
 
@@ -89,7 +89,7 @@ final _ellipticTextStack = Stack(
 
 Finally, here's an example of all the different alignments and properties in action:
 
-<img src="https://robmllze.github.io/elliptic_text/readme_assets/sample.png" style="max-height: 500px; max-width: 500px; object-fit: contain" />
+<img src="https://robmllze.github.io/elliptic_text/readme_assets/sample.png" style="max-height: 400px; max-width: 400px; object-fit: contain" />
 
 Please let me know if you find any bugs or if you have suggestions.
 

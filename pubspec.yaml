@@ -1,10 +1,10 @@
 name: elliptic_text
-description: This package includes the EllipticText widget that lets you
+description: "This package includes the EllipticText widget that lets you
 draw curved text along the perimiter of an ellipse or circle. It comes with
 all the bells and whistles and alignment options that you'd hope, is fully
-documented, updated and very easy to use.
+documented, updated and very easy to use."
 repository: https://github.com/robmllze/elliptic_text
-version: 1.0.1+5
+version: 1.0.1+6
 environment:
   sdk: ">=2.13.0 <3.0.0"
 dependencies:
