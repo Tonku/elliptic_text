@@ -19,3 +19,7 @@
 1.0.1+3
 
 * Fitted images better in README.md
+
+1.0.1+4
+
+* Added an example

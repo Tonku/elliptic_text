@@ -1,0 +1,7 @@
+name: example_elliptic_text
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+dependencies:
+  elliptic_text: ^1.0.1+3
+  flutter:
+    sdk: flutter

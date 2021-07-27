@@ -16,7 +16,7 @@ final _ellipticText = SizedBox(
 );
 ```
 
-Here's an animated example of what your text could look like:
+Here's an example of what your text could look like:
 
 <img src="https://robmllze.github.io/elliptic_text/readme_assets/smile.gif" style="max-height: 500px; max-width: 500px; object-fit: contain" />
 
@@ -87,7 +87,7 @@ final _ellipticTextStack = Stack(
 );
 ```
 
-# Conclusion
+## Conclusion
 
 Finally, here's an example of all the different alignments and properties in action:
 

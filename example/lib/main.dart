@@ -1,10 +1,7 @@
-// Elliptic Text - Example 1
+// Elliptic Text Example
 
-import 'package:elliptic_text/src/ellipse.dart';
 import 'package:flutter/material.dart';
-
-//import 'package:elliptic_text/elliptic_text.dart';
-import 'elliptic_text.dart';
+import 'package:elliptic_text/elliptic_text.dart';
 
 void main() {
   runApp(MyApp());
@@ -48,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   // Draw text at the top of the ellipse.
                   perimiterAlignment: EllipticText_PerimiterAlignment.bottom,
                   offset: __value,
-                  // Stretch text to half of the circumference.
+                  // Stretch text to half the circumference.
                   fitFactor: 1 / 2,
                   fitType: EllipticText_FitType.scaleFit,
                 ),
@@ -64,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
 final _animate = (final Widget Function(double) child) => TweenAnimationBuilder(
       tween: Tween<double>(
         begin: 0.0,
-        end: 30 * ellipseCircumRamanujan1(300.0 / 2.0, 450 / 2.0),
+        end: 30 * /*circumference*/ 2379.81594,
       ),
       duration: Duration(seconds: 60),
       builder: (_, __value, __) => child(__value),
