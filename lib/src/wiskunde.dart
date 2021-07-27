@@ -2,7 +2,9 @@
 //
 // WISKUNDE
 //
-// Coded by Robert Mollentze
+// By Robert Mollentze / @robmllze (2021)
+//
+// Please see LICENSE file.
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 

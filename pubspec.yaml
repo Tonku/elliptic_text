@@ -1,8 +1,7 @@
 name: elliptic_text
-description: Why should text always be straight?
+description: "Ask yourself: \"Why should text always be straight?\""
 repository: https://github.com/robmllze/elliptic_text
-#publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.1+1
 environment:
   sdk: ">=2.13.0 <3.0.0"
 dependencies:

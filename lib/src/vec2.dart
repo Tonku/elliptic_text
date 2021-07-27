@@ -2,7 +2,9 @@
 //
 // VEC2
 //
-// Coded by Robert Mollentze
+// By Robert Mollentze AKA @robmllze (2021)
+//
+// Please see LICENSE file.
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
@@ -10,8 +12,6 @@ library elliptic_text;
 
 import 'dart:math';
 import 'dart:ui';
-
-//import 'package:meta/meta.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -244,7 +244,6 @@ class Vec2 extends Pair {
   }
 
   /// Basic details of vector for testing.
-  // @visibleForTesting
   // Map<String, dynamic> details() => {
   //       "x": this.x,
   //       "y": this.y,

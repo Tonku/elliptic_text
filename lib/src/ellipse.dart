@@ -2,7 +2,9 @@
 //
 // ELLIPSE
 //
-// Coded by Robert Mollentze
+// By Robert Mollentze AKA @robmllze (2021)
+//
+// Please see LICENSE file.
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
