@@ -15,3 +15,7 @@
 1.0.1+2
 
 * Fixed broken asset link in README.md
+
+1.0.1+3
+
+* Fitted images better in README.md
